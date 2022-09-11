@@ -11,8 +11,8 @@ const chalk = require('chalk')
 //Ubah Disini
 global.ownerNumber = ['380942412294','0']
 global.ownerName = 'Jon Kristiansah Silaban'
-global.packname = 'Siappudan ni omak®'
-global.author = 'Sitinjo punya cerita'
+global.packname = 'Siappudan ni omak:)'
+global.author = 'Sitinjo punya cerita™'
 global.prefa = ['','!','.','#','!'] //Ilangin Prefix Yang '' Kalau Gamau No Prefix
 global.sessionName = 'sesi'
 
@@ -29,9 +29,9 @@ done: 'Done!'
 
 
 //Sesuaikan
-global.thumb = fs.readFileSync('./media/ichi.jpeg')
-global.donasi = fs.readFileSync('./media/donasi.jpg')
-global.thumbnail = fs.readFileSync('./media/ichi.mp4')
+global.thumb = fs.readFileSync('.jonkristiansah.silaban_I_2022_Sep_09_12_31_10.jpg.jpeg')
+global.donasi = fs.readFileSync('.Screenshot_2022-09-11-18-10-36.png.jpg')
+global.thumbnail = fs.readFileSync('.jonkristiansah.silaban_I_2022_Sep_09_12_31_10.jpg')
 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
