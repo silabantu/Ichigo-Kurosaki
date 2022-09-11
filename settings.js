@@ -29,8 +29,8 @@ done: 'Done!'
 
 
 //Sesuaikan
-global.thumb = fs.readFileSync('.jonkristiansah.silaban_I_2022_Sep_09_12_31_10.jpg.jpeg')
-global.donasi = fs.readFileSync('.Screenshot_2022-09-11-18-10-36.png.jpg')
+global.thumb = fs.readFileSync('.jonkristiansah.silaban_I_2022_Sep_09_12_31_10.jpg.')
+global.donasi = fs.readFileSync('.Screenshot_2022-09-11-18-10-36.png.')
 global.thumbnail = fs.readFileSync('.jonkristiansah.silaban_I_2022_Sep_09_12_31_10.jpg')
 
 let file = require.resolve(__filename)
